@@ -1,0 +1,108 @@
+.hidden {
+	visibility: hidden;
+}
+.main-page {
+	background-color: #191e3f;
+}
+.main-page__header {
+	position: relative;
+	border-top: 1px solid transparent; //убираем ненужное схлопывание
+}
+.main-page__header:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.main-page__wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+.main-header {
+	background-image: url(../img/header-bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.main-header__logo {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	margin-left: -63px;
+}
+.main-header__main-nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+.main-header__title {
+	margin: 495px 0;
+	text-align: center;
+}
+.main-header__heading {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	color: rgba(255,255,255,.5);
+	letter-spacing: -.02em;
+	font-weight: normal;
+	text-align: center;
+	font-size: 	77px
+}
+.main-page__projects {
+	min-height: 1380px;
+	background-image: url(../img/projects-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+.mission__title {
+	left: -60px;
+	bottom: 50%;
+	width: 260px;
+	height: 210px;
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+}
+.mission__heading {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	font-size: 	35px;
+	line-height: 6;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transform-origin: center center 0;
+	-moz-transform-origin: center center 0;
+	-ms-transform-origin: center center 0;
+	-o-transform-origin: center center 0;
+	transform-origin: center center 0;
+}
+.mission__heading:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '01';
+	font-family: Yantramanav, Arial, Helvetica, sans-serif;
+	font-size: 233px;
+	line-height: .95;
+	letter-spacing: .04em;
+	color: rgba(255,255,255,.2);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.mission__descr {
+	position: absolute;
+	bottom: 50%;
+	right: 0;
+	width: 500px;
+}
+.mission__image {
+	margin-left: 170px;
+}
