@@ -8,11 +8,13 @@
     background-repeat: no-repeat;
     background-position: center top, center bottom;
     background-size: 100% 1600px, 100% 1070px; 
+    min-width: 1170px;
 }
 
 .main-header {
     overflow: hidden;
     min-height: 1100px;
+    
 
 }
 
@@ -59,6 +61,7 @@
     overflow: hidden;
     margin-top: 110px;
     padding-bottom: 300px;
+    
 }
 .mission:after {
     clear: both;
@@ -153,6 +156,7 @@
     background-size: 100% 1320px;
     position: relative;
     z-index: -2;
+    
 }
 
 .projects:after {
@@ -493,6 +497,9 @@
 /* EVENTS */
 .event {
     margin-top: -105px;
+    padding-bottom: 500px;
+    overflow: hidden;
+    
 }
 
 .event__wrapper {
@@ -595,7 +602,9 @@
 .main-footer {
     width: 1170px;
     margin: 0 auto;
-    margin-top: 390px;
+    margin-top: -130px;
+    
+
 }
 .footer__wrapper {
     margin-left: 390px;
